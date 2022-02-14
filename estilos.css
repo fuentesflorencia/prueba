@@ -87,7 +87,7 @@ h2 {
 .subir {
     height: 50px;
     width: 50px;
-    background-color: yellow;
+    background-color: orangered; 
     border: 2px solid white;
     position: fixed;
     right: 20px;
@@ -114,7 +114,7 @@ text-shadow: 0 0 10px #000;
 }
 .footer h4{
     font-family:'Roboto', sans-serif;
-    background-color:#f09b09;
+    background-color: #d6b72c;
 }
 footer h4 {
     display: block;
@@ -479,7 +479,9 @@ transition:all 2s;
     scale: (2);
     }
 /*fin de animacion, transformacion y transicion*/
+
 /*Navbar-colors*/
 .bg-niki {
-    background-color: #f09b09;
+    background-color: #d6b72c;
 }
+/*Fin de Navbar-colors*/
