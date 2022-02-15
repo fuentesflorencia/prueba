@@ -96,13 +96,12 @@ h2 {
     text-align: center;
 }
 .subir i{
-color: white;
+color: white; 
 font-size: 25px;
 line-height: 50px;
 font-weight: bold;
 text-shadow: 0 0 10px #000;
 }
-
 .footer {
     width: 100%;
     height: 30vh;
@@ -372,19 +371,12 @@ h1 {
 }
 @media screen and (max-width:780px) {
 .footer {
-        font-size: xx-large;
-    }
-    }
-@media screen and (max-width:780px) {
-.footer {
-        background-color: cyan;
         font-family: cursive;
         }
         }
 @media screen and (max-width:1080px) {
 header p {
         font-family: cursive;
-        background-color: deeppink;
             }
             }       
 @media screen and (max-width:720px) {
@@ -392,17 +384,15 @@ main.grid-container {
         font-family: cursive;
         background-color: lightblue;
                          }
-                         }   
+        }   
+.contenedor-de-sucursal{
+        display: none;
+        }                       
 @media screen and (max-width: 320px) {
 main.grid-container{
-    display: none;
-            }
-            }        
-@media screen and (max-width: 1020px) {
-.contenedor-de-sucursal{
-    display: none;
-            }
-            }                  
+        display: none;
+        }
+        }                               
 /*fin de media queries desafio complementario*/
 
 /*Inicio de Pseudoclases*/
@@ -468,16 +458,17 @@ transition:all 2s;
     }
    
 .circle3 {
-        transition:all 2s;
+     transition:all 2s;
         }
 .circle4 {
-            transition:all 2s;
+     transition:all 2s;
             }
 .contenedor-de-contacto:hover {
     transition: all 3s;
     transform: rotate(90deg);
-    scale: (2);
+     scale: (2);
     }
+
 /*fin de animacion, transformacion y transicion*/
 
 /*Navbar-colors*/
@@ -485,3 +476,12 @@ transition:all 2s;
     background-color: #d6b72c;
 }
 /*Fin de Navbar-colors*/
+
+/*Posicion vertical*/
+
+@media (orientation:portrait) {
+form ul li {
+display: flex;
+flex-direction: column;
+}
+}
