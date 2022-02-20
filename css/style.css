@@ -1,0 +1,45 @@
+/*Nesting o anidamiento*/
+h4 {
+  background-color: black;
+}
+h4 ul a li {
+  list-style-type: circle;
+}
+
+/*Media query footer*/
+@media screen and (min-widht: 980px) {
+  footer {
+    background-color: blue;
+  }
+}
+
+/*importarlo al principal para que compile*/
+/*Nesting o anidamiento*/
+h4 {
+  background-color: black;
+}
+h4 ul a li {
+  list-style-type: circle;
+}
+
+/*Media query footer*/
+@media screen and (min-widht: 980px) {
+  footer {
+    background-color: blue;
+  }
+}
+
+/*variables*/
+/*colores*/
+/*fuente*/
+/*Listas*/
+/*Funcion nth()*/
+.button {
+  background-color: red;
+}
+
+h2 {
+  color: darken orange, 40%;
+}
+
+/*# sourceMappingURL=style.css.map */

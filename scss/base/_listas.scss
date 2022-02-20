@@ -1,0 +1,13 @@
+/*Listas*/ 
+
+$colores:
+red,
+blue,
+green,
+yellow,
+orange;
+
+/*Funcion nth()*/
+.button {
+    background-color: nth($colores, 1);
+}

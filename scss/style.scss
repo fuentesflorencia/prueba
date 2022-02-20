@@ -1,0 +1,24 @@
+/*Nesting o anidamiento*/
+h4 {
+    background-color: black;
+    ul {
+        a {
+            li {
+list-style-type: circle;
+            }
+        }
+    }
+}
+
+/*Media query footer*/
+footer {
+@media screen and (min-widht:980px) {
+    background-color: blue;
+}  
+}
+
+/*importarlo al principal para que compile*/ 
+@import 'footer'; 
+@import 'base/variable'; 
+@import 'base/listas'; 
+@import 'base/colores'; 
